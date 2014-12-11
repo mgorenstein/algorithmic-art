@@ -11,7 +11,7 @@ def draw():
     rect_width = width/2
     rect_height = height
     black = True
-    for rectangle in range(20):
+    for rectangle in range(40):
         if black:
             fill(0)
             black = False
@@ -19,8 +19,8 @@ def draw():
             fill(255)
             black = True
         rect(x, y, rect_width, rect_height)
-        rect_width -= 23
-        rect_height -= 23
+        rect_width -= 10
+        rect_height -= 10
     
     ''' right lines '''
     stroke(0)
