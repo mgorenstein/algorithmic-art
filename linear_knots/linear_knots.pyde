@@ -9,7 +9,7 @@ from datetime import datetime
 
 def setup():
     global initial, connective
-    initial = 30
+    initial = 20
     connective = 60
     size(450, 400)
 
